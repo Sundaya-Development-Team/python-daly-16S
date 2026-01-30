@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ========== CONFIGURATION ==========
 PORT = 'COM9'        # Serial port for RS485 communication
-BAUDRATE = 9600      # Baud rate for Modbus RTU communication
+BAUDRATE = 115200      # Baud rate for Modbus RTU communication
 SHOW_DEBUG = False   # True = show raw TX/RX frames
 LOOP_DELAY = 1       # Delay in seconds between each reading cycle
 
